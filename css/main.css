@@ -1,0 +1,273 @@
+/* ==========================================================================
+   Global classes
+   ========================================================================== */
+body {
+	background: #fff;
+    font-family: 'Lato', 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-weight: 300;
+    font-size:16px;
+}
+a:hover, a:focus {
+	text-decoration: none;
+	color:#0069C0;
+}
+.center-text {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.box{
+	padding: 10% 10%;
+}
+.ghost-btn {
+	margin-top: 8%;
+	display: inline-block;
+	width: 200px;
+	padding: 8px;
+	color: #fff;
+	border: 2px solid #2196F3;
+	border-radius: 20px;
+	text-align: center;
+	outline: none;
+	text-decoration: none;
+	background-color: #2196F3;
+	transition: background-color 0.2s ease-out,
+	          color 0.2s ease-out;
+}
+.ghost-btn:hover,
+.ghost-btn:active {
+/*	border-color: #2196F3;
+	background-color: transparent;*/
+	color: #fff;
+	transition: background-color 0.3s ease-in,
+	          color 0.3s ease-in;
+}
+/* ==========================================================================
+   Sections index.html
+   ========================================================================== */
+
+   /* Intro */
+.intro{
+	background: 
+	linear-gradient(
+		rgba(25, 32, 48, 0.70),
+		rgba(25, 32, 48, 0.70)
+	),
+	url(../img/intro1.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+.intro-box{
+	margin-top: 15%;
+	padding: 20% 10% 20% 10%;
+}
+/*.intro-title{
+	margin: 2em 0;
+}*/
+.features{
+/*	background-color: #2196F3;
+	color: #fff;*/
+}
+.feature-col{
+	margin: 3em 0;
+	text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+	.intro-box{
+		margin: 0;
+		padding: 16% 10% 10% 10%;
+	}
+	.feature-col{
+		margin: 0;
+	}
+}
+.feature-icon{
+	height:5em;
+	width: auto;
+}
+.workflow{
+	background-color: #f8f8f8;
+/*    color: #fff;*/
+}
+.workflow-gif{
+	width: 100%;
+	height:auto;
+}
+.workflow-checkbox{
+	float:left;
+	height: 18px;
+	margin:0 1em 2em 0;
+}
+.workflow-text{
+	padding-left: 1em;
+}
+.workflow-text p {
+	margin: 1em 0 1em 0;
+}
+.workflow-text h1{
+	margin: 1em 0 1em 0;
+}
+@media only screen and (min-width: 768px) {
+	.workflow-text{
+		padding-left:3em;
+	}
+	.workflow-text h1{
+		margin-top: 0;
+	}
+	.workflow-checkbox{
+		margin-bottom: 1em;
+	}
+}
+.footer{
+	color:#808080;
+	background-color:#fff;
+}
+.footer-col{
+	text-align: center;
+	vertical-align: center;
+	padding: 2em 1em 2em 1em;
+}
+.footer-col h3{
+	color: #000000;
+	margin: 0 0 2em 0;
+	font-size:16px;
+}
+.footer-col img{
+	height: 3em;
+	width: auto;
+}
+.footer-terms{
+	color: #2196F3;
+}
+/* ==========================================================================
+   press.html
+   ========================================================================== */
+.press{
+	background: 	
+	linear-gradient(
+		rgba(25, 32, 48, 0.70),
+		rgba(25, 32, 48, 0.70)
+	),
+	url(../img/hallway.jpeg) no-repeat center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+	padding: 5% 10% 10% 10%;
+}
+.press h3 {
+	color:#fff;
+}
+.press h1 {
+	text-align: center;
+	vertical-align: middle;
+	margin-bottom: 2em;
+}
+.press a {
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+}
+.press h3 {
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 3em;
+}
+.press-slider{
+}
+.press-slide{
+	border: 3px solid #fff;
+	text-align: center;
+	vertical-align: middle;
+	width: 40%;
+	height: 18em;
+	padding: 1%;
+}
+.press-slide:hover {
+	cursor:pointer;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	/* ...and now for the proper property */
+	transition:.5s;
+}
+@media only screen and (min-width: 768px) {
+	.press-slide{
+		height: 15em;
+		margin: 0 2em;
+	}
+}
+/* ==========================================================================
+   navbar
+   ========================================================================== */
+.nav{
+	background-color: transparent;
+	color: #fff;
+	transition: background-color .5s ease 0s;
+}
+.opaque{
+	background-color: #fff;
+	transition: background-color .5s ease 0s;
+	border-bottom: 3px solid #2196f3;
+}
+.opaque .navbar-toggle span {
+	background-color: #2196f3;
+}
+.opaque a{
+	color: #2196f3 !important;
+}
+.navbar{
+	margin-bottom: 5em;
+}
+.nav-img{
+	width:100%;
+	height: auto;
+}
+.navbar-header{
+	padding: 1em 1em;
+}
+.navbar-brand{
+	width: 50%;
+}
+.navbar-toggle{
+	border-color: transparent;
+}
+.navbar-nav a{
+	text-shadow: none !important;
+}
+.navbar-collapse{
+	padding-left: 2em;
+}
+@media only screen and (min-width: 768px){j
+	.navbar{
+		margin-bottom: 0;
+	}
+	.navbar-header{
+		width: 50%;
+	}
+	.navbar-nav {
+		padding: 1em 1em;
+	}
+	.navbar-nav > li > a{
+		color: #fff;
+	}
+	.navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	    background-color: transparent;
+	    color: #2198F3 !important;
+	}
+}
+@media only screen and (min-width: 1140px){
+	.navbar{
+		margin-bottom: 0;
+	}
+	.nav-img{
+		width:65%;
+	}
+}
