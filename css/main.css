@@ -124,7 +124,7 @@ a:hover, a:focus {
 	}
 }
 .footer{
-	color:#808080;
+	color:#999999;
 	background-color:#fff;
 }
 .footer-col{
@@ -196,6 +196,7 @@ a:hover, a:focus {
 	-moz-transition:.5s;
 	-webkit-transition:.5s;
 	/* ...and now for the proper property */
+	background-color: #2196F3;
 	transition:.5s;
 }
 @media only screen and (min-width: 768px) {
