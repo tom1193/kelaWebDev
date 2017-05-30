@@ -23,7 +23,7 @@ $(document).ready(function(){
   //open every link in a new tab
 
   // apply link to all divs. change number based on # of divs
-  for (var i=0; i<5; i++){
+  for (var i=0; i<7; i++){
     mapLinktoDiv(`.press${i}`);
   }
   if($(window).width() <= 768){
