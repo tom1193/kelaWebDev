@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Global classes
+   Globals
    ========================================================================== */
 body {
 	background: #fff;
@@ -44,7 +44,7 @@ a:hover, a:focus {
 	          color 0.3s ease-in;
 }
 /* ==========================================================================
-   Sections index.html
+   index.html
    ========================================================================== */
 
    /* Intro */
@@ -101,31 +101,32 @@ a:hover, a:focus {
 .workflow-checkbox{
 	float:left;
 	height: 18px;
-	margin:0 1em 2em 0;
+	margin-right: 1em;
 }
 .workflow-text{
 	padding-left: 1em;
 }
 .workflow-text p {
 	margin: 1em 0 1em 0;
+	overflow: hidden;
 }
 .workflow-text h1{
 	margin: 1em 0 1em 0;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
 	.workflow-text{
 		padding-left:3em;
 	}
 	.workflow-text h1{
 		margin-top: 0;
 	}
-	.workflow-checkbox{
-		margin-bottom: 1em;
-	}
 }
 .footer{
 	color:#999999;
 	background-color:#fff;
+}
+.footer-box{
+	padding: 3% 5%;
 }
 .footer-col{
 	text-align: center;
@@ -195,15 +196,82 @@ a:hover, a:focus {
 	-ms-transition:.5s;
 	-moz-transition:.5s;
 	-webkit-transition:.5s;
-	/* ...and now for the proper property */
-	background-color: #2196F3;
 	transition:.5s;
+	background-color: #2196F3;
 }
 @media only screen and (min-width: 768px) {
 	.press-slide{
 		height: 15em;
 		margin: 0 2em;
 	}
+}
+/* ==========================================================================
+   about.html
+   ========================================================================== */
+.story-box{
+	padding: 30% 10% 15% 10%;
+}
+.story-border{
+	border: 3px solid #fff;
+	padding: 5%;
+}
+.story-title{
+	margin-bottom: 10%;
+}
+
+@media only screen and (min-width: 768px) {
+	.story-box{
+		padding: 12% 25% 8% 25%;
+	}
+}
+.team{
+	text-align: center;
+}
+.team .team-col{
+	margin-top:3em;
+}
+.team h2{
+	margin:0.5em 0;
+	color: #2196F3;
+	font-size: 20px;
+}
+.team h3{
+	margin: 0;
+	color: #2196F3;
+	font-weight: lighter;
+	font-size:14px;
+}
+.team p{
+	font-size: 14px;
+}
+.team-divider{
+    margin: 5% auto;
+    width: 50%;
+    border-top: 1px #e6e6e6 solid;
+}
+@media only screen and (min-width: 768px) {
+	.story-box{
+		padding: 12% 25% 8% 25%;
+	}
+	.team .team-row{
+	margin: 5% 0;
+	}
+}
+.advisors .box{
+	padding-top:0;
+}
+.investors{
+	text-align: center;
+}
+.investors .box{
+	padding-top:0;
+}
+.investors img{
+	width: 75%;
+	height: auto;
+}
+.investors-col{
+	margin-top: 3em;
 }
 /* ==========================================================================
    navbar
@@ -251,7 +319,7 @@ a:hover, a:focus {
 		margin-bottom: 0;
 	}
 	.navbar-header{
-		width: 50%;
+		width: 40%;
 	}
 	.navbar-nav {
 		padding: 1em 1em;
@@ -267,6 +335,9 @@ a:hover, a:focus {
 @media only screen and (min-width: 1140px){
 	.navbar{
 		margin-bottom: 0;
+	}
+	.navbar-header{
+		width: 50%;
 	}
 	.nav-img{
 		width:65%;
