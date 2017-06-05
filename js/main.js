@@ -40,7 +40,6 @@ $('a[href*="#"]')
       }
     }
   });
-
 $(document).ready(function(){
 
   // apply link to all divs. change number based on # of divs
@@ -77,4 +76,3 @@ $(document).ready(function(){
   ]
   });
 });
-
