@@ -54,7 +54,7 @@ a:hover, a:focus {
 		rgba(25, 32, 48, 0.70),
 		rgba(25, 32, 48, 0.70)
 	),
-	url(../img/intro1.jpg) no-repeat center center; 
+	url(../img/intro4.jpg) no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -208,6 +208,19 @@ a:hover, a:focus {
 /* ==========================================================================
    about.html
    ========================================================================== */
+.about-intro{
+	background: 
+	linear-gradient(
+		rgba(25, 32, 48, 0.70),
+		rgba(25, 32, 48, 0.70)
+	),
+	url(../img/intro5.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
 .story-box{
 	padding: 30% 10% 15% 10%;
 }
